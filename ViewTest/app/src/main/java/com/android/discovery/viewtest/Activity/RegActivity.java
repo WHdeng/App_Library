@@ -39,6 +39,7 @@ public class RegActivity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.reg_back:
+                finish();
                 break;
             case R.id.reg:
                 break;

@@ -3,6 +3,6 @@ package com.android.discovery.viewtest.Listener;
 public interface RetrofitListener<T> {
     void onStart();
     void onFailed(String errorString);
-    void onSuccess(T t);
+    void onSuccess(T t, int flag);
     void onFinish();
 }
