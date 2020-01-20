@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/reg_bg"
+    android:gravity="center"
+    tools:context=".Activity.RegActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/layout_login_bg"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/reg_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_lc_icon_left_circle_line"/>
+            <View
+                android:layout_width="40dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:text="用户注册"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="22sp"/>
+            <View
+                android:layout_width="64dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <EditText
+            android:id="@+id/reg_username"
+            android:hint="用户名"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/layout_login_edittext_normal"
+            android:maxLength="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <EditText
+            android:id="@+id/reg_password"
+            android:hint="密码"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:background="@drawable/layout_login_edittext_normal"
+            android:maxLength="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <EditText
+            android:id="@+id/reg_confimPassword"
+            android:hint="确认密码"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:background="@drawable/layout_login_edittext_normal"
+            android:maxLength="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <Button
+            android:id="@+id/reg"
+            android:text="注册"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/layout_login_login_button"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
