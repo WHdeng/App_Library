@@ -60,6 +60,36 @@
             android:layout_width="match_parent"
             android:layout_height="20dp"/>
         <EditText
+            android:id="@+id/reg_userphone"
+            android:hint="手机号"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/layout_login_edittext_normal"
+            android:maxLength="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <EditText
+            android:id="@+id/reg_userage"
+            android:hint="年龄"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/layout_login_edittext_normal"
+            android:maxLength="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <EditText
             android:id="@+id/reg_password"
             android:hint="密码"
             android:textSize="16sp"
